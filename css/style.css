@@ -30,13 +30,14 @@ h1 {
   margin: 0 auto;
 }
 
-.youtube {
+.videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
+  margin-bottom: 40px;
 	height: 0;
 }
-.youtube iframe {
+.videoWrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
